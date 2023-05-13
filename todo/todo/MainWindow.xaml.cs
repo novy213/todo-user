@@ -83,11 +83,8 @@ namespace todo
 
         private async void Logout_click(object sender, RoutedEventArgs e)
         {
-            APIResponse res = await Api.LogoutAsync();
-            if (!res.Error)
-            {
-                SetAppStateLogout();
-            }
+            APIResponse res = await Api.LogoutAsync();            
+            SetAppStateLogout();            
         }
 
         private void OpenProject_click(object sender, RoutedEventArgs e)
