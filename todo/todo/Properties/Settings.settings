@@ -5,11 +5,11 @@
     <Setting Name="accessToken" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="url" Type="System.String" Scope="User">
-      <Value Profile="(Default)">http://localhost/basic/web</Value>
-    </Setting>
     <Setting Name="user_id" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="url" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://65.21.6.59/basic/web</Value>
     </Setting>
   </Settings>
 </SettingsFile>
