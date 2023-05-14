@@ -21,7 +21,7 @@ namespace todo
     {
         public AddTask()
         {
-            InitializeComponent();
+            InitializeComponent();            
         }
 
         private void Add_click(object sender, RoutedEventArgs e)

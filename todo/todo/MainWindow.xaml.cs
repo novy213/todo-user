@@ -140,7 +140,8 @@ namespace todo
         private async void AddTask_click(object sender, RoutedEventArgs e)
         {
             AddTask addTask = new AddTask { Owner = this };
-            if(addTask.ShowDialog() == true)
+            addTask.Description.Focus();
+            if (addTask.ShowDialog() == true)
             {
                 string desc = addTask.Description.Text;
                 APIResponse res = await Api.AddTaskAsync(desc, currentProject.Id);
@@ -188,6 +189,7 @@ namespace todo
         private async void AddProject_click(object sender, RoutedEventArgs e)
         {
             CreateProject createProject = new CreateProject { Owner = this };
+            createProject.ProjectName.Focus();
             if(createProject.ShowDialog() == true)
             {
                 APIResponse res = await Api.CreateProjectAsync(Settings.Default.user_id, createProject.ProjectName.Text);
