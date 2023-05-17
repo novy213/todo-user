@@ -9,7 +9,7 @@
       <Value Profile="(Default)">0</Value>
     </Setting>
     <Setting Name="url" Type="System.String" Scope="User">
-      <Value Profile="(Default)">http://65.21.6.59/basic/web</Value>
+      <Value Profile="(Default)">https://api.jakubsolarek.pl</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -49,7 +49,7 @@ namespace todo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://65.21.6.59/basic/web")]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://api.jakubsolarek.pl")]
         public string url {
             get {
                 return ((string)(this["url"]));
