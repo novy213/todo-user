@@ -50,6 +50,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -189,9 +197,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:ToDo"
+        "ProductName" = "8:Todo"
         "ProductCode" = "8:{D1C5DD0F-FFAC-49E6-A4D5-4E2DAF10A01E}"
-        "PackageCode" = "8:{7AA20C90-5C22-4955-BC8E-7EA7D4FD9610}"
+        "PackageCode" = "8:{4DCF6BA9-BADD-45E6-A801-6E0CD4130545}"
         "UpgradeCode" = "8:{E06B7FD4-43FC-47D3-B255-E497B5F04F7E}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -202,7 +210,7 @@
         "Manufacturer" = "8:Jakub Solarek"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:ToDo"
+        "Title" = "8:Todo"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Jakub Solarek"
         "Keywords" = "8:"
@@ -313,7 +321,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_E4349E071E264087BD5B75C24ADCAFFD"
             {
-            "Name" = "8:ToDo"
+            "Name" = "8:Todo"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -327,7 +335,7 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_EA2DC5AF6BA5437DA853390BD8A15B23"
             {
-            "Name" = "8:ToDo"
+            "Name" = "8:Todo"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
