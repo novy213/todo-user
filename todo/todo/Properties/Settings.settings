@@ -9,7 +9,7 @@
       <Value Profile="(Default)">0</Value>
     </Setting>
     <Setting Name="url" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://api.jakubsolarek.pl</Value>
+      <Value Profile="(Default)">https://api.jakubsolarek.pl/todo/todo-server/basic/web</Value>
     </Setting>
   </Settings>
 </SettingsFile>
